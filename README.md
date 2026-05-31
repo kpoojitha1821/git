@@ -8,5 +8,15 @@ Today i learning notes:
 - What git commit does
 
 # git
-Learned Git Branches
+Learned Git Branches day3
 -what is github is what is differ fot git
+
+##week 1 summary
+-Installed Git 
+-Created GitHub account
+-Learned branches 
+-Created pull requests
+-Merged branches 
+
+##Day 6
+-Completed week 1 git practice 
