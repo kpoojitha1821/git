@@ -20,4 +20,5 @@ Learned Git Branches day3
 
 ##Day 6
 -Completed week 1 git practice 
-
+##Week-2
+Learning terminal and GitHub Collaboration.
