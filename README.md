@@ -23,3 +23,4 @@ Learned Git Branches day3
 ##Week-2
 Learning terminal and GitHub Collaboration.
 Practicing merge conflicts.
+Week 2 completed successfully.
