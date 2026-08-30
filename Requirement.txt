@@ -1,0 +1,55 @@
+TICKET BOOKING SYSTEM
+Problem Statement
+Create a simple Ticket Booking System with 2 seats only: Seat 1 and Seat 2.
+The system has these options:
+
+1. New Booking
+2. Cancel Booking
+3. View Booking
+4. Quit
+
+ 1. New Booking
+
+* Enter the customer name.
+* Enter the customer age.
+* Enter the seat number.
+* The seat number should be 1 or 2.
+* If the seat number is not 1 or 2, print "Not valid".
+* If the seat is available, book the seat.
+* Print "Successfully booked".
+* Show the remaining available seats.
+
+2. Cancel Booking
+
+* Enter the customer name.
+* Enter the seat number.
+* The seat number should be 1 or 2.
+* If the seat number is not 1 or 2, print "Not valid".
+* If the seat is booked, cancel the booking.
+* Show the available seats.
+
+3. View Booking
+
+* If there is no booking, print:
+
+  "Booked seats are not available"
+
+* If there is a booking, show:
+
+  * Customer Name
+  * Age
+  * Seat Number
+
+0. Quit
+
+* If the user selects 0, print:
+
+  "Quit"
+
+* Then stop the program.
+
+Invalid Option
+
+* If the user enters any option other than 1, 2, 3, or 0, print:
+
+  "Invalid option"
