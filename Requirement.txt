@@ -1,55 +1,54 @@
 TICKET BOOKING SYSTEM
 Problem Statement
 Create a simple Ticket Booking System with 2 seats only: Seat 1 and Seat 2.
-The system has these options:
+
+Main Menu:
 
 1. New Booking
 2. Cancel Booking
 3. View Booking
 4. Quit
 
- 1. New Booking
+1.New Booking
 
-* Enter the customer name.
-* Enter the customer age.
-* Enter the seat number.
-* The seat number should be 1 or 2.
-* If the seat number is not 1 or 2, print "Not valid".
-* If the seat is available, book the seat.
-* Print "Successfully booked".
-* Show the remaining available seats.
+1. Check if any seat is free.
+2. Choose Seat 1 or Seat 2.
+3. Make sure the selected seat is not already booked.
+4. Enter the customer's name using only letters and spaces.
+5. Enter a valid age greater than 0.
+6. Enter a valid 10-digit mobile number starting with 6, 7, 8, or 9.
+7. Save the customer's details with the selected seat.
+8. Update the number of booked seats.
+9. Show a booking confirmation and remaining seats.
 
 2. Cancel Booking
 
-* Enter the customer name.
-* Enter the seat number.
-* The seat number should be 1 or 2.
-* If the seat number is not 1 or 2, print "Not valid".
-* If the seat is booked, cancel the booking.
-* Show the available seats.
+1. Check if there is a booking to cancel.
+2. Select Seat 1 or Seat 2.
+3. Make sure the selected seat has a booking.
+4. Enter the mobile number used for the booking.
+5. Compare the entered number with the saved number.
+6. Cancel the booking only if the number is correct.
+7. Free the seat and update the seat count.
+8. Show the cancellation message and available seats.
 
 3. View Booking
 
-* If there is no booking, print:
+1. Check if any booking is present.
+2. Select Seat 1 or Seat 2.
+3. Check whether the selected seat is booked.
+4. Enter the registered mobile number.
+5. Verify the number with the saved booking details.
+6. If correct, show the customer's name, age, phone number, and seat number.
+7. If incorrect, show an invalid phone number message.
 
-  "Booked seats are not available"
+ 0. Quit
 
-* If there is a booking, show:
+1. Close the booking system.
+2. Display a Thank You message.
 
-  * Customer Name
-  * Age
-  * Seat Number
+Default Case
 
-0. Quit
+1. Show an invalid choice message.
+2. Display the menu again and ask for a valid option.
 
-* If the user selects 0, print:
-
-  "Quit"
-
-* Then stop the program.
-
-Invalid Option
-
-* If the user enters any option other than 1, 2, 3, or 0, print:
-
-  "Invalid option"
